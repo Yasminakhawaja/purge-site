@@ -11,6 +11,7 @@ body {
 header {
   height: min-content;
   background-color: var(--color-head-bg);
+  border-bottom: 1px solid #44ff00;
 }
 #main-disclamer {
   height: 225px;
