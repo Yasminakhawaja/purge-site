@@ -3,7 +3,7 @@
   --color-bg: #000000;
 
   /* Header background color */
-  --color-head-bg: #625e5c;
+  --color-head-bg: #000000;
 
   /* Logotype */
   --color-logotype-bg: #000000;
@@ -31,7 +31,7 @@
   --color-headline-bg: #6fff00;
 
   /* Tekst */
-  --color-text: #000;
+  --color-text: #ff0000;
   --color-text-inverted: #6fff00;
 
   /* Andet tekst */
@@ -47,7 +47,7 @@
   --color-card-bg: #6fff00;
   --color-card-bg-inverted: #6fff00;
   --color-cta-card-bg: #6fff00;
-  --color-cta-card-bg-inverted: #6fff00;
+  --color-cta-card-bg-inverted: #2a2d28;
 
   /* Fonts & font weights*/
   --font-family-sans: ui-sans-serif;
@@ -57,5 +57,5 @@
   --font-weight-light: 200;
 
   /* Infographics background colors*/
-  --color-info-bg: #676161;
+  --color-info-bg: #212020;
 }
