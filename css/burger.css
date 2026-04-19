@@ -15,15 +15,27 @@
 .burger {
   display: none;
 }
+.logo-img {
+  display: flex;
+  height: 150px;
+  overflow: hidden;
+}
+
 @media screen and (width < 800px) {
   .menu {
-    /* display: none; */
+    display: none;
   }
   .logo {
-    flex: 0 0 50vw;
+    flex: 0 1 auto;
+  }
+  .logo-img {
+    width: 200px;
+    height: auto;
+    display: flex;
+    overflow: hidden;
   }
   .burger {
-    /* display: block; */
+    display: block;
     background-color: transparent;
     border: 0;
     flex: 0 0 auto;

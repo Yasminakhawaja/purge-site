@@ -61,6 +61,10 @@ footer ul {
     grid-template-columns: 5fr 3fr;
     grid-template-rows: auto auto 1fr auto;
   }
+  .warning,
+  h1 {
+    grid-column: span 2;
+  }
 
   .qr {
     order: 1;
