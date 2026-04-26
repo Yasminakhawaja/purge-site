@@ -1,4 +1,7 @@
 /* LAYOUT FOR MAIN CONTENT */
+html {
+  color-scheme: light;
+}
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -60,6 +63,10 @@ footer ul {
   #register > main {
     grid-template-columns: 5fr 3fr;
     grid-template-rows: auto auto 1fr auto;
+  }
+  .warning,
+  h1 {
+    grid-column: span 2;
   }
 
   .qr {

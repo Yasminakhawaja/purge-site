@@ -1,18 +1,88 @@
 #webform {
   background-color: var(--form-background-color);
 }
-
+.sections-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 #form-section,
 #form-summary {
-  background-color: var(--info-background-color);
-  padding: 0;
+  background: rgba(10, 10, 10, 0.78);
+  border: 1px solid rgba(255, 0, 0, 0.35);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.12);
+  padding: 30px;
 }
+.død-reg {
+  font-size: 40px;
+}
+#form-info h2,
 #form-summary h2 {
-  line-height: 3rem;
-  text-align: center;
-  background-color: var(--headline-bg-color-inverted);
-  color: var(--headline-color-inverted);
-  padding-top: 5px;
+  color: #ff2a2a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.35);
+}
+#form-info p,
+#form-summary p,
+.form-group h4,
+label {
+  color: #ff0000;
+}
+#webform input[type="text"],
+#webform input[type="email"] {
+  width: 100%;
+  background: #111;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+#webform input[type="text"]:focus,
+#webform input[type="email"]:focus {
+  outline: none;
+  border-color: #ff2a2a;
+  box-shadow: 0 0 0 4px rgba(255, 0, 0, 0.12);
+}
+
+.form-group {
+  margin-bottom: 22px;
+}
+
+.error-message {
+  color: #ff6b6b;
+  font-size: 0.95rem;
+}
+button {
+  background: linear-gradient(180deg, #ff2a2a, #a80000);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  padding: 14px 22px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 18px rgba(255, 0, 0, 0.22);
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+#form-section {
+  padding-top: 2rem;
+}
+#form-section h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#form-section p {
+  font-size: 15px;
+  line-height: 2rem;
+  margin: 0;
+  padding: 5px;
 }
 #form-summary h3 {
   font-size: 0.8rem;
@@ -24,9 +94,17 @@
 #form-summary > *:not(:first-child) {
   margin: 0 clamp(1rem, 10%, 7rem);
 }
-#form-summary p {
-  font-size: 0.8rem;
-  line-height: 1.3;
-  margin: 0 0 1.2rem 0;
-  padding: 0;
+
+.warning {
+  background-color: red;
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.killed_output {
+  font-size: 17px;
 }

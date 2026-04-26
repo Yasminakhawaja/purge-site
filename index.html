@@ -1,63 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="img/fav.png" />
+    <title>Emergency Site</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/general.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/burger.css">
-  <link rel="stylesheet" href="css/cards.css">
-  <link rel="icon" type="image/png" href="img/fav.png">
-  <title>Emergency Site</title>
-</head>
+  <body id="frontpage">
+    <header>
+      <nav>
+        <div id="logotype-wrapper" class="logo">
+          <a href="index.html"><p class="logo_type">THE PURGE</p></a>
+        </div>
+        <ul class="menu">
+          <li><a class="menuItem" href="instruction.html">SAFE ZONES</a></li>
+          <li><a class="menuItem" href="register.html">INDBERET</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
 
-<body id="frontpage">
-  <header>
-    <nav>
-      <div id="logotype-wrapper" class="logo">
-        <a href="index.html"> LOGO-TYPE </a>
+    <main>
+      <section class="logo-1">
+        <div class="logo-svg">
+          <a href="index.html"><img src="img/logo.svg1.svg" alt="logo" /></a>
+        </div>
+        <div class="logo-tekst">
+          <h1>LOVLØS</h1>
+          <p>Officelle Purge site for KBH kommune</p>
+        </div>
+      </section>
+      <div class="layout_forside">
+        <div class="container">
+          <div class="card">
+            <h3>Sikkerhed</h3>
+            <img src="img/slås.webp" alt="purge" />
+            <h4>tips til overlevlse</h4>
+            <p>
+              Under “The Purge DK” handler sikkerhed først og fremmest om at være forberedt og tænke klart. Den bedste strategi er at have en plan på forhånd og opholde sig et sikkert sted sammen med mennesker, du stoler på. Ved at blive indendørs,
+              begrænse synlighed og undgå unødvendig kontakt med omverdenen reducerer du risikoen betydeligt. Det er vigtigt at have basale forsyninger klar, så du ikke behøver at bevæge dig ud, og samtidig holde kommunikationen med dine nærmeste
+              åben uden at dele for meget offentligt.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Hvilke våben er lovlige?</h3>
+            <img src="img/våben.webp" alt="våben" />
+            <h4>Tilladte:</h4>
+            <p>Våben i klasse 4 og derunder er tilladte og omfatter primært lettere nærkampsvåben som knive, økser og baseballbat samt visse typer skydevåben.</p>
+            <h4>Forbudte:</h4>
+            <p>
+              Våben over klasse 4 er forbudt. Dette gælder tungere og mere destruktive midler såsom sprængstoffer og militært udstyr, herunder granater, raketkastere og lignende. Formålet med disse begrænsninger er at forhindre omfattende skade på
+              infrastruktur og reducere risikoen for masseødelæggelse.
+            </p>
+            <h4>Undtagelser</h4>
+            <p>Der findes dog undtagelser i systemet. Højtstående regeringsembedsmænd på niveau 10 er ikke underlagt de samme restriktioner og kan i dette fiktive scenarie have adgang til andre typer våben.</p>
+          </div>
+          <div class="card">
+            <h4>Hvorfor skal dødsfald indberets?</h4>
+            <img src="img/indberet.webp" alt="indberet" />
+            <h3></h3>
+            <p>Efter Purgen ophør træder et fast beredskab i kraft, hvor alle dødsfald skal registreres for at skabe overblik og sikre korrekt håndtering. Indberetning foretages til de relevante myndigheder via denne side.</p>
+            <p>
+              Det er vigtigt, at indberetningen sker hurtigt og så præcist som muligt.Registreringen danner grundlag for den efterfølgende genopretning af samfundet, hvor myndighederne arbejder på at skabe overblik, yde støtte til berørte familier og
+              sikre, at alle hændelser bliver korrekt dokumenteret
+            </p>
+          </div>
+        </div>
+
+        <section class="faq-section">
+          <h2>BREAKING NEWS</h2>
+          <details open name="accordion">
+            <summary>METTE FREDERIKSEN I NÆRKAMP</summary>
+            <img src="img/mette.png" alt="mette" />
+            <div class="content">
+              <p>
+                For 2 timer siden fandt en alvorlig hændelse sted ved statsminister Mette Frederiksens private bolig. Ifølge myndighederne lykkedes det en mand at trænge ind på ejendommen i et forsøg på at udnytte nattens lovløse rammer.Politiet
+                reagerede hurtigt på situationen, og gerningsmanden blev anholdt kort efter indbruddet. myndighederne understreger klart, at angreb på offentlige embedsmænd, herunder medlemmer af Folketinget aldrig er tilladt. Sådanne handlinger er
+                fortsat strafbare og bliver håndteret med fuld juridisk konsekvens.
+              </p>
+            </div>
+          </details>
+
+          <details name="accordion">
+            <summary>GRANATER BRUGT UNDER PURGE</summary>
+            <div class="content">
+              <img src="img/news2.webp" alt="hehe" />
+              <p>
+                Under nattens Purge blev situationen markant eskaleret, da flere personer angiveligt tog brug af håndgranater i forskellige områder af København. Eksplosioner blev hørt i både udkanten af byen og i tættere beboede kvarterer, hvilket
+                skabte panik blandt borgere. Ifølge Københavns Politi rykkede specialenheder hurtigt ud, og flere mistænkte blev anholdt i løbet af natten. Myndighederne understreger kraftigt, at brugen af militært sprængstof som granater under ingen
+                omstændigheder er tilladt, anvendelse af sådanne våben er ulovligt og bliver straffet efter gældende lovgivning.
+              </p>
+            </div>
+          </details>
+          <details name="accordion">
+            <summary>MASKEREDE GRUPPER OVERTAGER GADERNE</summary>
+            <div class="content">
+              <img src="img/new3.webp" alt="hehe" />
+              <p>
+                Under purge forvandlede dele af København sig til kaotiske zoner, hvor maskerede grupper patruljerede gaderne og oprettede uofficielle kontrolpunkter. Borgere blev stoppet, afhørt og i flere tilfælde frataget ejendele, mens nødopkald
+                strømmede ind. Selvom næsten alle handlinger i dette ekstreme scenarie blev betragtet som lovlige under Purge-reglerne, trak én type hændelse en tydelig grænse. Ifølge Københavns Politi blev flere personer anholdt for at true kritisk
+                infrastruktur og forsøge at sabotere offentlige beredskabssystemer.“Myndigheder og samfundets kernefunktioner er undtaget, det er en linje, man ikke må krydse,” lød det fra en talsperson.Resten af natten forløb i en blanding af frygt,
+                opportunisme og organiseret kaos. Mange borgere barrikaderede sig i deres hjem, mens andre deltog aktivt i nattens ekstreme frihed.
+              </p>
+            </div>
+          </details>
+        </section>
       </div>
-      <ul class="menu">
-        <li><a class="menuItem" href="instruction.html">Nærkontakt</a></li>
-        <li><a class="menuItem" href="register.html">Indberet</a></li>
-      </ul>
-      <button class="burger">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-      </button>
-    </nav>
-  </header>
+    </main>
 
-  <main>
-
-  </main>
-
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-      </ul>
-    </nav>
-  </footer>
-</body>
-
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
