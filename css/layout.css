@@ -1,4 +1,7 @@
 /* LAYOUT FOR MAIN CONTENT */
+html {
+  color-scheme: light;
+}
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
